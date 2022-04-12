@@ -12,4 +12,8 @@ public class MainMenu : MonoBehaviour
     public void Exit(){
         Application.Quit();
     }
+
+    public void ARCamera(string sceneName){
+        SceneManager.LoadScene(sceneName);
+    }
 }
